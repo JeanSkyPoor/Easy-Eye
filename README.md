@@ -2,7 +2,7 @@
 
   Мой пет-проект направленный на автоматизацию сбора данных с экрана монитора. 
 
-  Ссылка на скачивание самого приложения Easy Eye.exe https://drive.google.com/drive/folders/1vuK4LBrh53n6jK--1ZIJoB0DSDdY8oRe?usp=sharing
+  Ссылка на скачивание самого приложения Easy Eye.exe https://drive.google.com/drive/folders/1vuK4LBrh53n6jK--1ZIJoB0DSDdY8oRe?usp=sharing. Выберите под вашу систему.
 
   Шаг 1: Необходимо установить tesseract по указанному пути C:\Program Files\Tesseract-OCR. Ссылка на скачивание https://github.com/UB-Mannheim/tesseract/wiki. Выберите под вашу систему. 
 
