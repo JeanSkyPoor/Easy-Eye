@@ -20,7 +20,7 @@ def thread(my_func):
 
 def image_grab(myapp):
     """
-    Делает скриншот по указанным координатам, переводит световые каналы к RGB и возвращает изображение
+    Делает скриншот по указанным координатам, переводит цветовые каналы к RGB и возвращает изображение
     """
     img = ImageGrab.grab(bbox = (myapp.left, myapp.top, myapp.right, myapp.down), all_screens = True)
     img = array(img)
