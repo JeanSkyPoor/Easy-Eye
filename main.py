@@ -25,7 +25,7 @@ class MyWin(QtWidgets.QMainWindow):
 
     def test_run(self):
         """
-        Запускается при нажатии на кнопку СТАРТ. 
+        Запускается при нажатии на кнопку ТЕСТ 
         """
         #Обновление данных с формы 
         coordinate_initialization(myapp)
