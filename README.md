@@ -33,5 +33,6 @@
    
    Использую большой размер шрифта, но программа его не считывает. Решение: возможно, у вас установлен какой-то экзотический шрифт. Попробуйте поставить более стандартные шрифты аля Times New Roman или Arial. 
   
+![interface](https://user-images.githubusercontent.com/69383370/134298761-cd3d1ded-15b8-4696-a141-c44b0533c565.png)
 
-![image](https://user-images.githubusercontent.com/69383370/133991740-ca638261-f090-4330-bcec-1dba79070a0a.png)
+
