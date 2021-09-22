@@ -29,7 +29,7 @@ def image_grab(myapp):
 
 def show_img(new_img):
     """
-    Открывает вызеранный фрагмент изображения в новом окне и ждет, пока его закроют
+    Открывает вырезанный фрагмент изображения в новом окне и ждет, пока его закроют
     """
     imshow('fragment', new_img)
     waitKey(0)
@@ -119,7 +119,6 @@ def reading_data(img, myapp):
     """
     Считывает данные с вырезанного изображения и возвращает результат работы pytesseract'a
     """
-
     data = pytesseract.image_to_string(img)
     data = sub(r'[\x00-\x1f]+', '', data)
     result = data[myapp.first_to_drop : len(data) - myapp.second_to_drop :]
