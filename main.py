@@ -21,7 +21,6 @@ class MyWin(QtWidgets.QMainWindow):
         """
         Устанавливает Threading.Event в позицию Set у класса myapp(MyWin)
         """
-
         self.exit_event.set()
 
     def test_run(self):
